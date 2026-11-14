@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <!-- Fingerprint, supported face authentication and device authentication -->
+ <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+ <!-- Compatibility for Android 9 and older supported devices -->
+ <uses-permission
+     android:name="android.permission.USE_FINGERPRINT"
+     android:maxSdkVersion="28" />
+
+ <!-- Fingerprint hardware is optional because device credentials can be used -->
+ <uses-feature
+     android:name="android.hardware.fingerprint"
+     android:required="false" />
+
+ <application
+     android:allowBackup="false"
+     android:fullBackupContent="false"
+     android:usesCleartextTraffic="false"
+     android:label="Ryu’s Ledger"
+     android:theme="@style/Theme.RyusLedger"
+     android:icon="@mipmap/ic_launcher"
+     android:roundIcon="@mipmap/ic_launcher_round">
+
+  <activity
+      android:name=".MainActivity"
+      android:exported="true"
+      android:launchMode="singleTask"
+      android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|keyboard|uiMode"
+      android:windowSoftInputMode="adjustResize">
+
+   <intent-filter>
+    <action android:name="android.intent.action.MAIN" />
+    <category android:name="android.intent.category.LAUNCHER" />
+   </intent-filter>
+
+  </activity>
+
+ </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--
+        Base theme for Android 8 and later.
+
+        Android 12+ splash-specific attributes will be placed in
+        res/values-v31/themes.xml so older Android versions do not
+        attempt to interpret unsupported splash attributes.
+    -->
+    <style
+        name="Theme.RyusLedger"
+        parent="@android:style/Theme.Material.NoActionBar">
+
+        <!-- Application window colours -->
+        <item name="android:windowBackground">@color/ryu_background</item>
+        <item name="android:colorAccent">@color/ryu_crimson</item>
+
+        <!-- Status and navigation bars -->
+        <item name="android:statusBarColor">@color/ryu_background</item>
+        <item name="android:navigationBarColor">@color/ryu_background</item>
+
+        <!-- Use light-coloured system-bar icons -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Avoid a bright preview while the WebView starts -->
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Transition polish -->
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+        <!-- Keep the application content behind a dark secure window -->
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,79 @@
+﻿# Android generated files
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml
+
+# Signing keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*password*
+*recovery-key*
+
+# Ledger and financial data
+*.vault.json
+*Backup*.json
+financial-backups/
+ledger-backups/
+
+# Windows and web generated files
+node_modules/
+dist/
+out/
+release/
+
+# Operating-system files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Accidental nested repository
+ryus-ledger/
+
+# Local build tool downloads
+.tools/
+
+# Android generated files
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml
+
+# Signing keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*password*
+*recovery-key*
+
+# Ledger and financial data
+*.vault.json
+*Backup*.json
+financial-backups/
+ledger-backups/
+
+# Windows and web generated files
+node_modules/
+dist/
+out/
+release/
+
+# Operating-system files
+Thumbs.db
+desktop.ini
+.DS_Store

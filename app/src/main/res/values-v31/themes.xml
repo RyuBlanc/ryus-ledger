@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Android 12 and later system splash treatment -->
+    <style
+        name="Theme.RyusLedger"
+        parent="@android:style/Theme.Material.NoActionBar">
+
+        <!-- Splash screen -->
+        <item name="android:windowSplashScreenBackground">
+            @color/ryu_background_deep
+        </item>
+
+        <item name="android:windowSplashScreenAnimatedIcon">
+            @mipmap/ic_launcher
+        </item>
+
+        <item name="android:windowSplashScreenIconBackgroundColor">
+            @color/ryu_background_deep
+        </item>
+
+        <item name="android:windowSplashScreenAnimationDuration">
+            650
+        </item>
+
+        <!-- Normal application window -->
+        <item name="android:windowBackground">
+            @color/ryu_background
+        </item>
+
+        <item name="android:colorAccent">
+            @color/ryu_crimson
+        </item>
+
+        <item name="android:statusBarColor">
+            @color/ryu_background
+        </item>
+
+        <item name="android:navigationBarColor">
+            @color/ryu_background
+        </item>
+
+        <item name="android:windowLightStatusBar">
+            false
+        </item>
+
+        <item name="android:windowLightNavigationBar">
+            false
+        </item>
+
+        <item name="android:windowNoTitle">
+            true
+        </item>
+
+        <item name="android:windowActionModeOverlay">
+            true
+        </item>
+
+        <item name="android:fontFamily">
+            sans
+        </item>
+
+    </style>
+
+</resources>

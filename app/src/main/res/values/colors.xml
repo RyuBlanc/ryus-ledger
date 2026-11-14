@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="ryu_background">#0B101B</color>
+    <color name="ryu_background_deep">#120B10</color>
+    <color name="ryu_panel">#141C2D</color>
+
+    <color name="ryu_crimson">#B91546</color>
+    <color name="ryu_crimson_bright">#E52F63</color>
+    <color name="ryu_crimson_soft">#FFACC4</color>
+
+    <color name="ryu_text">#F6F0F5</color>
+    <color name="ryu_muted">#A8ADBF</color>
+
+    <color name="ryu_transparent">#00000000</color>
+</resources>
